@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro de usuarios</title>
+</head>
+
+<body>
+
+    <h1>Registro para cursos de tecnología</h1>
+    <form action="" method="post">
+
+        <div>
+            <label for="txNombres">Nombres:</label>
+            <input type="" id="txNombres" size="30" placeholder="Ingrese sus Nombres">
+        </div><br>
+
+        <div>
+            <label for="txApellidos">Apellidos:</label>
+            <input type="" id="txApellidos" placeholder="Ingrese sus Apellidos">
+        </div> <br>
+
+        <div>
+            <label for="dtFecha">Fecha de Nacimiento:</label>
+            <input type="date" id="dtFecha">
+        </div><br>
+
+        <div>
+            <label for="rbGenero">Genero:</label>
+            <input type="radio" name="rbSex" id="rbGenero">Femenino &nbsp;
+            <input type="radio" name="rbSex" id="rbGenero">Masculino
+        </div><br>
+
+        <div>
+            <label for="txUsuario">Usuario:</label>
+            <input type="text" id="txUsuario" placeholder="Máximo digitar 8 caracteres">
+        </div><br>
+
+        <div>
+            <label for="txContraseña">Contraseña:</label>
+            <input type="password" id="txContraseña">
+        </div><br>
+
+        <div>
+            <label for="txCurso">Seleccione Curso Deseado:</label>
+            <select name="txCurso" id="txCurso">
+                <optgroup label="Frontend">
+                    <option value="">HTML</option>
+                    <option value="">Javascript</option>
+                    <option value="">CSS</option>
+                </optgroup>
+
+                <optgroup label="Backend">
+                    <option value="">Visual C#</option>
+                    <option value="">Java</option>
+                </optgroup>
+            </select>
+        </div><br>
+
+        <div>
+            <label for="txCorreo">Correo Electrónico:</label>
+            <input type="email" id="txCorreo" placeholder="correo@servidor.com">
+        </div><br>
+
+        <div>
+            <label for="ckotros">Otros Cursos:</label>
+            <input type="checkbox" id="ckjava">Java &nbsp;
+            <input type="checkbox" id="ckjava">SQLite &nbsp;
+            <input type="checkbox" id="ckjava">Python
+        </div><br>
+        <div>
+            <label for="txOpinion">Obsrvaciones:</label><br>
+            <textarea name="" id="" cols="40" rows="20" style="resize: none;"></textarea>
+        </div><br>
+
+        <div>
+            <input type="submit" value="Registrar" id="btnRegistro" name="btnRegistro" >
+            <input type="reset" value="Nuevo Registro" id="btNuevo" name="btNuevo" >
+        </div>
+
+
+
+    </form>
+
+</body>
+
+</html>
