@@ -10,6 +10,7 @@
 ![Image text](/images/git-add-commit.png)
 - Hacemos "git branch" para ver en que rama estamos trabajando y "git log" para ver todo el registro de lo que hicimos en el repositorio
 ![Image text](/images/git-branch-log.png)
+- Finalmente hacemos "git add ." Y "git commit -m 'Actualización final'" nuevamente para guardar todos los cambios realizados en el repositorio.
 
 
 
